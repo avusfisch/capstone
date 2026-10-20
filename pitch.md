@@ -22,13 +22,18 @@ During this the actual cards are not allowed to be shown to the other players
 (besides the one being played at the end), the president and chancellor are
 however allowed to talk (or lie) about their content to the other players.
 
-The game ends when either six fascist or 5 liberal policy cards have been played,
+The game ends when either six fascist or 5 liberal law cards have been played,
 or when Hitler gets elected chancellor after 3 fascist law cards have been played.
+
+# Implementation
+
+The project will be implemented in python, with LLMs being accessed via
+openrouter api calls.
 
 ## Motivation
 
 I picked the game because of the complex social situation it creates (without
-getting too complex) and to explore how different LLMs handle it.
+getting too overwhelming) and to explore how different LLMs handle it.
 The liberal LLMs have to infer who the fascists are based on their actions,
 while the fascist LLMs need to deceive the liberal players in order to win.
 
